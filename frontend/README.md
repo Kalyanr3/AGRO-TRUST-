@@ -6,28 +6,17 @@ This interface allows users to track agricultural products, view real-time IoT d
 **🚀 Features of Frontend**
 
 **Dashboard & Navigation:** Intuitive dashboard for farmers, distributors, and consumers.
-
 **Product Tracking:** View real-time updates of agricultural products throughout the supply chain.
-
 **IoT Integration:** Display live sensor data like temperature, humidity, and location.
-
 **Blockchain Interaction:** Securely read/write product transactions on the blockchain.
-
 **Responsive Design:** Works on both desktop and mobile devices.
-
 **Authentication:** Role-based login for different stakeholders.
-
 
 **🛠️ Technologies & Tools**
 
 **Framework:** React.js
-
 **State Management:** React Hooks 
-
 **Styling:** CSS3
-
 **Blockchain Interaction:** Web3.js
-
 **API Communication:** REST API calls to Spring Boot backend
-
 **Version Control:** Git & GitHub
