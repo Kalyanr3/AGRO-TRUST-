@@ -1,0 +1,172 @@
+/* Main Container */
+
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* ================================
+   GLOBAL STYLES
+================================ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Teachers", sans-serif;
+  background: #f4f7fa;
+}
+
+/* ================================
+   NAVBAR
+================================ */
+.navbar {
+  width: 100%;
+  background: #1e8b3f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Teachers", sans-serif;
+}
+
+.nav-brand {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   FORM CONTAINER
+================================ */
+.form-container {
+  width: 420px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+  font-family: "Teachers", sans-serif;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #1e8b3f;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* ================================
+   FORM INPUTS
+================================ */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+  font-family: "Teachers", sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #1e8b3f;
+}
+
+/* ================================
+   SUBMIT BUTTON
+================================ */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #1e8b3f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+  font-family: "Teachers", sans-serif;
+}
+
+.submit-btn:hover {
+  background: #14692f;
+}
+
+.submit-btn:disabled {
+  background: #7fbf95;
+  cursor: not-allowed;
+}
+
+/* ================================
+   ALERTS
+================================ */
+.alert {
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.alert-error {
+  background: #ffe1e1;
+  color: #c30000;
+  border: 1px solid #ffb4b4;
+}
+
+.alert-success {
+  background: #e0ffe7;
+  color: #008f3c;
+  border: 1px solid #9df4b8;
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+@media (max-width: 480px) {
+  .form-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

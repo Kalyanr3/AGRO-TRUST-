@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.retailer-container {
+  padding: 2rem;
+  font-family: "Teachers", sans-serif;
+  text-align: center;
+}
+
+.retailer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  font-family: "Teachers", sans-serif;
+  margin-top: 1rem;
+}
+
+.retailer-card {
+  background: linear-gradient(135deg, #fbe7ff, #e3f0ff);
+  border-radius: 14px;
+  padding: 1.2rem;
+  font-family: "Teachers", sans-serif;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease-in-out;
+}
+
+.retailer-card:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #ffd4fc, #d7eaff);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  font-family: "Teachers", sans-serif;
+}
+
+
+.retailer-card:hover {
+  transform: translateY(-4px);
+  font-family: "Teachers", sans-serif;
+  background: #e9ecef;
+}
+
+.no-retailers {
+  color: #777;
+  margin-top: 2rem;
+  font-style: italic;
+  font-family: "Teachers", sans-serif;
+}

@@ -1,0 +1,211 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+body {
+  background-color: #f6f8f7;
+  font-family: "Teachers", sans-serif;
+  margin: 0;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 1200px;
+  font-family: "Teachers", sans-serif;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* ===========================
+   HEADER NAVBAR
+=========================== */
+.dashboard-header-bar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Teachers", sans-serif;
+  align-items: center;
+
+  background: linear-gradient(90deg, #2e7d32, #43a047);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: "Teachers", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  font-family: "Teachers", sans-serif;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Teachers", sans-serif;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #dcedc8;
+  font-family: "Teachers", sans-serif;
+}
+
+.logout-btn {
+  background: #d32f2f;
+  color: white;
+  font-family: "Teachers", sans-serif;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+  font-family: "Teachers", sans-serif;
+}
+
+.welcome-text {
+  font-size: 16px;
+  font-family: "Teachers", sans-serif;
+  color: #fff;
+}
+
+/* ===========================
+   TITLE SECTION
+=========================== */
+.dashboard-title-section {
+  text-align: center;
+  font-family: "Teachers", sans-serif;
+  margin: 40px auto 25px;
+}
+
+.dashboard-title-section h1 {
+  color: #1b5e20;
+  font-size: 32px;
+  font-family: "Teachers", sans-serif;
+  margin-bottom: 10px;
+}
+
+.dashboard-title-section p {
+  color: #444;
+  font-family: "Teachers", sans-serif;
+}
+
+.section-divider {
+  width: 120px;
+  height: 3px;
+  background: #43a047;
+  font-family: "Teachers", sans-serif;
+  border: none;
+  margin: 15px auto;
+  border-radius: 4px;
+}
+
+/* ===========================
+   FARMER LIST GRID
+=========================== */
+.section-label {
+  font-size: 22px;
+  font-family: "Teachers", sans-serif;
+  font-weight: 600;
+  margin: 30px 0 15px;
+  color: #2e7d32;
+}
+
+.farmer-list {
+  display: grid;
+  gap: 20px;
+  font-family: "Teachers", sans-serif;
+
+  /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* ===========================
+   FARMER CARD
+=========================== */
+.farmer-card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  font-family: "Teachers", sans-serif;
+  cursor: pointer;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.farmer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  font-family: "Teachers", sans-serif;
+  background: #f1f8e9;
+}
+
+.farmer-name {
+  font-size: 18px;
+  font-family: "Teachers", sans-serif;
+  color: #2e7d32;
+  margin-bottom: 8px;
+}
+
+.product-count {
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: "Teachers", sans-serif;
+  color: #388e3c;
+}
+
+.clickable {
+  cursor: pointer;
+  font-family: "Teachers", sans-serif;
+}
+
+/* ===========================
+   LOADING
+=========================== */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #388e3c;
+  font-family: "Teachers", sans-serif;
+  margin-top: 40px;
+}
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  .dashboard-header-bar {
+    flex-direction: column;
+    font-family: "Teachers", sans-serif;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Teachers", sans-serif;
+  }
+
+  .farmer-card {
+    text-align: center;
+    font-family: "Teachers", sans-serif;
+  }
+}

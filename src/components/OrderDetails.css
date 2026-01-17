@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.od-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #f5f8ff;
+  min-height: 100vh;
+  font-family: "Teachers", sans-serif;
+}
+
+.od-card {
+  width: 80%;
+  max-width: 900px;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  font-family: "Teachers", sans-serif;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.od-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a2b6d;
+  font-family: "Teachers", sans-serif;
+  margin-bottom: 15px;
+}
+
+.od-info p {
+  font-size: 18px;
+  margin: 4px 0;
+  font-family: "Teachers", sans-serif;
+}
+
+.od-subtitle {
+  margin-top: 25px;
+  font-size: 24px;
+  font-family: "Teachers", sans-serif;
+  color: #1a2b6d;
+  font-weight: 600;
+}
+
+.od-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-family: "Teachers", sans-serif;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.od-table th {
+  background: #e9f5ff;
+  padding: 12px;
+  font-size: 18px;
+  font-family: "Teachers", sans-serif;
+  font-weight: 600;
+}
+
+.od-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  font-family: "Teachers", sans-serif;
+  font-size: 17px;
+}
+
+.od-total {
+  margin-top: 20px;
+  font-size: 26px;
+  font-family: "Teachers", sans-serif;
+  font-weight: 700;
+  color: #1a2b6d;
+}
+
+.od-total span {
+  color: #e67316;
+  font-family: "Teachers", sans-serif;
+}
+
+.od-back-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #007bff;
+  font-family: "Teachers", sans-serif;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.od-back-btn:hover {
+  background: #005fcc;
+  font-family: "Teachers", sans-serif;
+}
+
+.od-status.paid {
+  color: #28a745;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+}
+
+.od-status.pending {
+  color: #e69500;
+  font-weight: bold;
+  font-family: "Teachers", sans-serif;
+}

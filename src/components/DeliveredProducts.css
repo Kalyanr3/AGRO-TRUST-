@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.delivered-container {
+  padding: 25px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Teachers", sans-serif;
+}
+
+.delivered-container h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-family: "Teachers", sans-serif;
+}
+
+.no-products {
+  text-align: center;
+  font-family: "Teachers", sans-serif;
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.delivered-grid {
+  display: grid;
+  font-family: "Teachers", sans-serif;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 22px;
+  margin-top: 20px;
+}
+
+.delivered-card {
+  background: #ffffff;
+  font-family: "Teachers", sans-serif;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.2s ease-in-out;
+}
+
+.delivered-card:hover {
+  transform: scale(1.03);
+  font-family: "Teachers", sans-serif;
+}
+
+.product-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  font-family: "Teachers", sans-serif;
+}
+
+.farmer-info {
+  background: #f7f7f7;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-family: "Teachers", sans-serif;
+}
+
+.qr-section {
+  text-align: center;
+  margin-top: 12px;
+  font-family: "Teachers", sans-serif;
+}
+
+.qr-section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 6px;
+  font-family: "Teachers", sans-serif;
+  border: 1px solid #ccc;
+}

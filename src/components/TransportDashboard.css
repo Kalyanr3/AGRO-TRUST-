@@ -1,0 +1,278 @@
+/* ============================
+   MAIN PAGE
+============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+.transport-dashboard {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: "Teachers", sans-serif;
+}
+
+.transport-dashboard h1 {
+  text-align: center;
+  color: #2e7d32;
+  font-family: "Teachers", sans-serif;
+  margin-bottom: 10px;
+}
+
+.transport-dashboard h3 {
+  text-align: center;
+  color: #555;
+  font-family: "Teachers", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* ============================
+   DELIVERY CARDS
+============================ */
+.orders-list {
+  display: grid;
+  gap: 20px;
+  font-family: "Teachers", sans-serif;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.order-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: "Teachers", sans-serif;
+  border: 1px solid #e0e0e0;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-3px);
+  font-family: "Teachers", sans-serif;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+  font-family: "Teachers", sans-serif;
+}
+
+.order-card p {
+  margin: 4px 0;
+  font-family: "Teachers", sans-serif;
+  font-size: 14px;
+}
+
+/* ============================
+   STATUS LABELS
+============================ */
+.status {
+  display: inline-block;
+  padding: 3px 8px;
+  font-family: "Teachers", sans-serif;
+
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.status.assigned {
+  background: #0288d1;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.status.out-for-delivery {
+  background: #f9a825;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.status.delivered {
+  background: #43a047;
+  font-family: "Teachers", sans-serif;
+
+}
+
+/* ============================
+   BUTTONS
+============================ */
+.actions {
+  margin-top: 15px;
+  display: flex;
+  font-family: "Teachers", sans-serif;
+
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Pickup Button */
+.pickup-btn {
+  flex: 1;
+  background: #0288d1;
+  font-family: "Teachers", sans-serif;
+
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.pickup-btn:hover {
+  background: #0277bd;
+  font-family: "Teachers", sans-serif;
+
+}
+
+/* Deliver Button */
+.deliver-btn {
+  flex: 1;
+  background: #43a047;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: "Teachers", sans-serif;
+
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.deliver-btn:hover {
+  background: #2e7d32;
+  font-family: "Teachers", sans-serif;
+
+}
+
+/* ============================
+   EMPTY STATE
+============================ */
+.empty-text {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Teachers", sans-serif;
+
+  color: #777;
+  margin-top: 40px;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+============================ */
+@media (max-width: 768px) {
+  .actions {
+    flex-direction: column;
+  font-family: "Teachers", sans-serif;
+
+  }
+
+  .order-card {
+    padding: 15px;
+  font-family: "Teachers", sans-serif;
+
+  }
+}
+
+.transport-dashboard {
+  padding: 30px;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.back-btn {
+  background: #444;
+  font-family: "Teachers", sans-serif;
+
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background: #000;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.orders-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 20px;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.order-card {
+  background: #fff;
+  font-family: "Teachers", sans-serif;
+
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  font-family: "Teachers", sans-serif;
+
+}
+
+.actions {
+  margin-top: 15px;
+  display: flex;
+  font-family: "Teachers", sans-serif;
+
+  gap: 10px;
+}
+
+.pickup-btn {
+  background: #ff9800;
+  font-family: "Teachers", sans-serif;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pickup-btn:hover {
+  background: #e68900;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.deliver-btn {
+  background: #2a7f28;
+  font-family: "Teachers", sans-serif;
+
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.deliver-btn:hover {
+  background: #256c22;
+  font-family: "Teachers", sans-serif;
+
+}
+
+.no-orders {
+  font-size: 18px;
+  font-family: "Teachers", sans-serif;
+  color: gray;
+}

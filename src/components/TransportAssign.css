@@ -1,0 +1,151 @@
+/* ================================
+   PAGE CONTAINER
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+.assign-transport-container {
+  width: 100%;
+  max-width: 550px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  font-family: "Teachers", sans-serif;
+}
+
+.assign-transport-container h2 {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Teachers", sans-serif;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+/* ================================
+   ORDER SUMMARY BOX
+================================ */
+.order-summary-box {
+  background: #f1f8e9;
+  font-family: "Teachers", sans-serif;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-left: 4px solid #81c784;
+}
+
+.order-summary-box p {
+  margin: 5px 0;
+  color: #33691e;
+  font-family: "Teachers", sans-serif;
+  font-size: 15px;
+}
+
+/* ================================
+   FORM
+================================ */
+.assign-form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Teachers", sans-serif;
+  gap: 15px;
+}
+
+.assign-form label {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Teachers", sans-serif;
+  color: #2e7d32;
+}
+
+.assign-form select,
+.assign-form input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  font-family: "Teachers", sans-serif;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.assign-form select:focus,
+.assign-form input:focus {
+  border-color: #2e7d32;
+  font-family: "Teachers", sans-serif;
+}
+
+/* ================================
+   BUTTONS
+================================ */
+.assign-btn {
+  background: #43a047;
+  color: white;
+  font-family: "Teachers", sans-serif;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.assign-btn:hover {
+  background: #2e7d32;
+  font-family: "Teachers", sans-serif;
+}
+
+.cancel-btn {
+  background: #e53935;
+  color: white;
+  font-family: "Teachers", sans-serif;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.cancel-btn:hover {
+  background: #c62828;
+  font-family: "Teachers", sans-serif;
+}
+
+/* ================================
+   LOADING TEXT
+================================ */
+.loading-text {
+  text-align: center;
+  padding: 30px;
+  font-family: "Teachers", sans-serif;
+  font-size: 18px;
+  color: #388e3c;
+}
+
+/* ================================
+   MOBILE RESPONSIVE
+================================ */
+@media (max-width: 600px) {
+  .assign-transport-container {
+    margin: 20px;
+    font-family: "Teachers", sans-serif;
+    padding: 20px;
+  }
+
+  .assign-transport-container h2 {
+    font-size: 22px;
+    font-family: "Teachers", sans-serif;
+  }
+
+  .assign-btn,
+  .cancel-btn {
+    font-size: 14px;
+    padding: 10px;
+    font-family: "Teachers", sans-serif;
+  }
+}
