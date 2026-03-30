@@ -1,0 +1,144 @@
+/* ============================
+   GLOBAL STYLES
+=============================== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+}
+
+/* Smooth hover transitions everywhere */
+* {
+  transition: 0.25s ease-in-out;
+}
+
+/* ============================
+   NAVBAR
+=============================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2b7a0b;
+  padding: 15px 25px;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.nav-brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcome {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: #d62828;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+}
+
+/* ============================
+   DASHBOARD
+=============================== */
+.dashboard {
+  padding: 40px 60px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.dashboard-header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ============================
+   ACTION CARDS
+=============================== */
+.action-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+/* CARD */
+.action-card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.action-card:hover {
+  transform: translateY(-5px);
+  border-color: #2b7a0b;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* ICON INSIDE CARD */
+.card-icon {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+/* CARD TITLE */
+.action-card h3 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+/* CARD DESCRIPTION */
+.action-card p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+=============================== */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .action-cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
