@@ -22,7 +22,7 @@ export default function UserRetailerList() {
 
   return (
     <div className="retailer-container">
-      <h2>Available Retailers</h2>
+      <h2>AVAILABLE RETAILERS </h2>
 
       <div className="retailer-grid">
         {retailers.map((r) => (

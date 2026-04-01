@@ -180,12 +180,12 @@ const RetailerCart = () => {
     }
   };
 
-  if (loading) return <p>Loading cart...</p>;
+  if (loading) return <p>LOADING CART........</p>;
 
   return (
     <div className="cart-page">
       <div className="cart-header">
-        <h1>🛒 Your Shopping Cart</h1>
+        <h1>🛒 YOUR SHOPPING CART </h1>
         <p>
           Welcome, <b>{retailer?.storeName || retailer?.name}</b>
         </p>
@@ -193,9 +193,9 @@ const RetailerCart = () => {
 
       {cartItems.length === 0 ? (
         <div className="empty-cart">
-          <h2>🛍 Your cart is empty</h2>
+          <h2>🛍 YOUR CART IS EMPTY </h2>
           <a href="/retailer/dashboard" className="back-btn">
-            ← Back to Dashboard
+            ← BACK TO DASHBOARD 
           </a>
         </div>
       ) : (

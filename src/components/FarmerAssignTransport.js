@@ -96,7 +96,7 @@ const FarmerAssignTransport = () => {
     }
   };
 
-  if (!order) return <div>Loading order...</div>;
+  if (!order) return <div>Loading order............</div>;
 
   return (
     <div className="assign-transport-page">
@@ -107,7 +107,7 @@ const FarmerAssignTransport = () => {
         <p><b>Ordered On:</b> {new Date(order.createdAt).toLocaleString()}</p>
       </div>
 
-      <h3>Transport Details</h3>
+      <h3>TRANSPORT DETAILS: </h3>
 
       <form className="form-container" onSubmit={handleAssignTransport}>
         

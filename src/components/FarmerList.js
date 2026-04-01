@@ -29,7 +29,7 @@ const FarmerList = () => {
     <div className="farmer-list">
       <h2>Registered Farmers</h2>
       {farmers.length === 0 ? (
-        <p>No farmers registered yet.</p>
+        <p>No farmers registered yet............</p>
       ) : (
         <table className="farmer-table">
           <thead>

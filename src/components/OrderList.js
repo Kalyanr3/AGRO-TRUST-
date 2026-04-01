@@ -39,7 +39,7 @@ const OrderList = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-xl font-bold mb-4">My Orders</h2>
+      <h2 className="text-xl font-bold mb-4">MY ORDERS </h2>
 
       {orders.length === 0 ? (
         <p className="text-gray-600 text-center">No orders found.</p>

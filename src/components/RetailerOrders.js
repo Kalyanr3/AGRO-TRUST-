@@ -49,7 +49,7 @@ const RetailerOrders = () => {
           ← Back to Dashboard
         </button>
 
-        <h1 className="page-title">📦 My Orders</h1>
+        <h1 className="page-title">📦 MY ORDERS </h1>
 
         <p className="welcome-text">
           Welcome back, <b>{retailer?.storeName || retailer?.name}</b>

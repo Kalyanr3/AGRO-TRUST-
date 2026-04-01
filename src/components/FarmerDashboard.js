@@ -22,7 +22,7 @@ const FarmerDashboard = ({ user, logout }) => {
 
       <div className="dashboard">
         <div className="dashboard-header">
-          <h1>Farmer Dashboard</h1>
+          <h1>FARMER DASHBOARD </h1>
           <p>Manage your products, orders, transportation, and earnings</p>
         </div>
 

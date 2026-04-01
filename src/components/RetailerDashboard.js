@@ -78,17 +78,17 @@ const RetailerDashboard = () => {
 
       {/* ---------- TITLE ---------- */}
       <section className="dashboard-title-section">
-        <h1>Retailer Dashboard</h1>
-        <p>Click a farmer to view their available products.</p>
+        <h1>RETAILER DASHBOARD  </h1>
+        <p>CLICK A FARMER TO VIEW THEIR AVAILABLE PRODUCTS......</p>
         <hr className="section-divider" />
       </section>
 
       {/* ---------- FARMERS LIST ---------- */}
-      <h2 className="section-label">👨‍🌾 Farmers</h2>
+      <h2 className="section-label">👨‍🌾 FARMERS </h2>
 
       <div className="farmer-list">
         {farmers.length === 0 ? (
-          <p>No farmers available.</p>
+          <p>🚫 NO FARMERS AVAILABLE........</p>
         ) : (
           farmers.map((farmer) => (
             <div

@@ -10,7 +10,7 @@ export default function UserDashboard({ user, logout }) {
 
       {/* HEADER SECTION */}
       <div className="dashboard-header">
-        <h2 className="dashboard-title">Welcome, {user?.name}</h2>
+        <h2 className="dashboard-title">WELCOME, {user?.name}</h2>
         <button className="logout-btn" onClick={logout}>
           Logout
         </button>

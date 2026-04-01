@@ -55,8 +55,8 @@ export default function RetailerDeliveredProducts() {
 
   return (
     <div className="delivered-container">
-      <h1>✔ Delivered Products</h1>
-      <p>These are the products delivered to you.</p>
+      <h1>✔ DELIVERED PRODUCTS </h1>
+      <p>THESE ARE THE PRODUCTS DELIVERED TO YOU.....</p>
 
       {products.length === 0 ? (
         <p className="no-products">No delivered products yet.</p>

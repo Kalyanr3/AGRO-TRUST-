@@ -156,7 +156,7 @@ const OrderDetails = () => {
 
             {["OUT_FOR_DELIVERY", "DELIVERED"].includes(order.status) && (
               <div className="od-transporter-box">
-                <h3>🚚 Transporter Details</h3>
+                <h3>🚚 TRANSPORTER DETAILS </h3>
                 <p><b>Transporter ID:</b> {order.transporterId || "—"}</p>
                 <p><b>Vehicle Type:</b> {order.vehicleType || "—"}</p>
                 <p><b>Vehicle Number:</b> {order.vehicleNo || "—"}</p>

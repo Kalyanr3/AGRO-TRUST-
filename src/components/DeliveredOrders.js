@@ -68,7 +68,7 @@ const DeliveredOrders = () => {
         <div className="orders-list">
           {orders.map((order) => (
             <div className="order-card" key={order.id}>
-              <h3>Order #{order.id}</h3>
+              <h3>Order # {order.id}</h3>
 
               <p><b>Total:</b> ₹{order.totalAmount}</p>
               <p><b>Delivered On:</b> {order.deliveredDate?.replace("T", " ")}</p>

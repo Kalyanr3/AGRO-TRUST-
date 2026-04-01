@@ -103,7 +103,7 @@ const AddProduct = ({ onProductAdded }) => {
 
   return (
     <div className="add-product-container">
-      <h2>➕ Add New Product</h2>
+      <h2>➕ ADD NEW PRODUCT</h2>
 
       {message && (
         <div

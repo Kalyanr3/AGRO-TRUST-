@@ -66,7 +66,7 @@ const TransportDashboard = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="nav-brand">Product Tracking using Blockchain</div>
+        <div className="nav-brand">AGRO-TRUST : AN AGRICULTURE PRODUCT SUPPLY CHAIN MANAGEMENT USING BLOCKCHAIN AND IOT </div>
       </nav>
 
       <div className="transport-dashboard">

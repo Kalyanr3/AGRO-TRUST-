@@ -62,7 +62,7 @@ const FarmerProducts = () => {
             className="dashboard-btn"
             onClick={() => navigate("/retailer/dashboard")}
           >
-            ← Back to Dashboard
+            ← BACK TO DASHBOARD  
           </button>
         </div>
       </header>

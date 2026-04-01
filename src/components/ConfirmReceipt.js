@@ -51,7 +51,7 @@ const ConfirmReceipt = () => {
     }
   };
 
-  if (loading) return <p className="text-center">Loading...</p>;
+  if (loading) return <p className="text-center">Loadinggg...........</p>;
 
   return (
     <div className="container mx-auto p-4">

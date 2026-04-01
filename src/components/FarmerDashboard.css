@@ -7,7 +7,7 @@ body {
   background: #f5f7fa;
 }
 
-/* Smooth hover transitions everywhere */
+/* Smooth hover transitions everywhere .............*/
 * {
   transition: 0.25s ease-in-out;
 }

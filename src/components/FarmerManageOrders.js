@@ -33,7 +33,7 @@ const FarmerManageOrders = () => {
     }
   };
 
-  if (loading) return <p className="loading">⏳ Loading orders...</p>;
+  if (loading) return <p className="loading">⏳ LOADING ORDERSS...</p>;
 
   return (
     <div className="farmer-orders-container">

@@ -62,7 +62,7 @@ const ProductList = ({ refreshKey }) => {
 
   return (
     <div className="product-list-container">
-      <h2>🧺 My Products</h2>
+      <h2>🧺 MY PRODUCTS</h2>
 
       <div className="products-grid">
         {products.map((product) => {

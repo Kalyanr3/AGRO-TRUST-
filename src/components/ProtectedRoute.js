@@ -15,7 +15,7 @@ const ProtectedRoute = ({ children, role }) => {
       return <Navigate to="/retailer/login" state={{ from: location }} replace />;
     }
   }
-
+//
   // 🧭 Handle farmer-only routes
   if (role === "farmer") {
     if (!farmer) {

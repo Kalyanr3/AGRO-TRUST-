@@ -64,7 +64,7 @@ const RetailerFarmerProducts = () => {
       </div>
 
       {!farmer ? (
-        <p className="loading">Loading farmer...</p>
+        <p className="loading">LOADING FARMER.......</p>
       ) : (
         <>
           <div className="farmer-info">
@@ -75,7 +75,7 @@ const RetailerFarmerProducts = () => {
           </div>
 
           {products.length === 0 ? (
-            <p>No products available for this farmer.</p>
+            <p>🚫 NO PRODUCTS AVAILABLE FOR THIS FARMER........</p>
           ) : (
             <table className="product-table">
               <thead>

@@ -48,7 +48,7 @@ const PaymentPage = () => {
             checked={method === "CASH"}
             onChange={(e) => setMethod(e.target.value)}
           />
-          Cash on Delivery
+          Cash on Delivery (COD)
         </label>
       </div>
 

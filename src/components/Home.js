@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="login-card">
-        <h2>WELCOME TO PRODUCT CHAIN TRACKER</h2>
+        <h2>WELCOME TO AGRO-TRUST : AGRICULTURE PRODUCT SUPPLY CHAIN MANAGEMENT USING BLOCKCHAIN AND IOT</h2>
         <h3>Sign In</h3>
 
         <form onSubmit={handleLogin}>
@@ -74,11 +74,11 @@ const Home = () => {
           <div className="form-group">
             <label>Role</label>
             <select value={role} onChange={(e) => setRole(e.target.value)}>
-              <option value="">-- Select Role --</option>
-              <option value="Farmer">Farmer</option>
-              <option value="Retailer">Retailer</option>
-              <option value="Transport">Transport</option>
-              <option value="User">User</option> {/* ✅ Added User */}
+              <option value="">-- SELECT ROLE --</option>
+              <option value="Farmer">FARMER</option>
+              <option value="Retailer">RETAILER</option>
+              <option value="Transport">TRANSPORT</option>
+              <option value="User">USER</option> {/* ✅ Added User */}
             </select>
           </div>
 

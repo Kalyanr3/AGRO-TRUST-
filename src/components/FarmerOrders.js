@@ -79,7 +79,7 @@ const RetailerOrders = () => {
           {orders.length === 0 ? (
             <tr>
               <td colSpan="6" className="no-orders">
-                No orders found
+                NO ORDERS FOUND
               </td>
             </tr>
           ) : (

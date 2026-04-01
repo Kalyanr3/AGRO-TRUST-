@@ -7,7 +7,7 @@ export default function RetailerProducts() {
   const [products, setProducts] = useState([]);
 
   // ============================
-  // FETCH RETAILER PRODUCTS
+  // FETCH RETAILER PRODUCTS...............
   // ============================
   useEffect(() => {
     retailerAPI.getRetailerProducts(retailerId).then((res) => {
