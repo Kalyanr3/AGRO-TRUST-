@@ -1,71 +1,140 @@
-# Getting Started with Create React App
+# 🌾 Agro Trust - Frontend (React JS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Agro Trust Frontend is a modern and responsive web application built using React JS for an Agriculture Supply Chain Management System. It enables farmers, vendors, and consumers to interact seamlessly with the platform and track products transparently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Problem Statement
 
-### `npm start`
+Traditional agricultural systems lack transparency and real-time tracking, making it difficult for stakeholders to trust product quality and origin.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👉 This frontend provides an intuitive UI to interact with backend services and visualize supply chain data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🏗️ System Architecture
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User (Browser)
+⬇  
+React Frontend  
+⬇  
+Spring Boot Backend (REST APIs)  
+⬇  
+Database + Blockchain Layer  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🌾 User-friendly dashboard
+- 🔐 Authentication (Login/Register UI)
+- 📦 Product listing and tracking
+- 🔍 Search & filter functionality
+- 📊 Real-time data visualization
+- 📱 Responsive design (mobile + desktop)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ⚛️ React JS
+- 🎨 HTML, CSS, JavaScript
+- 🔗 Axios (API calls)
+- 🌐 REST API Integration
+- 📦 npm / yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+src/
+├── components/ → Reusable UI components
+├── pages/ → Application pages
+├── services/ → API calls
+├── assets/ → Images & styles
+├── App.js
+└── index.js
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Getting Started
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Node.js installed
+- npm or yarn
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+git clone https://github.com/your-username/Agro_Trust_Frontend.git
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Navigate to project folder:
 
-### Deployment
+cd Agro_Trust_Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# product-Blockchain-frontend" 
+npm install
+
+
+4. Run the application:
+
+npm start
+
+
+```bash id="q2p9lm"
+git clone https://github.com/your-username/Agro_Trust_Frontend.git
+cd Agro_Trust_Frontend
+npm install
+npm start
+
+🔗 API Integration
+
+This frontend connects to the backend APIs:
+
+Example:
+
+axios.get("http://localhost:8080/api/products")
+``` id="g8j9tr"
+
+---
+
+## 📸 Screenshots
+
+(Add your UI screenshots here — Dashboard, Login, Product Page)
+
+---
+
+## 🎯 Use Case
+
+- 👨‍🌾 Farmers manage product details  
+- 🏪 Vendors track supply chain  
+- 🛒 Consumers verify product authenticity  
+
+---
+
+## 🔥 Future Enhancements
+
+- 📱 Progressive Web App (PWA)
+- 🌐 Multi-language support
+- 📊 Advanced analytics dashboard
+- 🔔 Notifications system
+
+---
+
+## 👨‍💻 Author
+
+**Kalyan R**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
